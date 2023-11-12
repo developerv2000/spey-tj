@@ -1,0 +1,468 @@
+@media screen and (min-width: 992px) {
+  .only-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  body,
+  p {
+    font-size: 15px;
+  }
+
+  .main-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .main-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button--more {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+
+  /* Main card */
+  .main-cards-list {
+    gap: 32px;
+  }
+
+  .main-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-card__title {
+    font-size: 18px;
+  }
+
+  .main-card__image {
+    width: 100%;
+    clip-path: none;
+  }
+
+  .main-card:nth-child(even) .main-card__image {
+    clip-path: none;
+  }
+
+  .main-card__text-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-card:nth-child(even) .main-card__text-container {
+    padding: 0;
+  }
+
+  .main-card:nth-child(even) {
+    flex-direction: column;
+  }
+
+  /* Product card */
+  .product-card__title {
+    font-size: 15px;
+  }
+
+  /* Post card */
+  .post-card__image {
+    width: 100%;
+  }
+
+  .post-card__body {
+    padding: 16px;
+  }
+
+  .post-card__title {
+    font-size: 15px;
+  }
+
+  /* Popup card */
+  .popup-card__overlay,
+  .popup-card:hover .popup-card__overlay {
+    position: static;
+    background-color: aliceblue;
+    transform: none;
+    color: var(--text-color);
+    padding: 0;
+  }
+
+  .popup-card__title,
+  .popup-card:hover .popup-card__title {
+    transform: none;
+    padding: 12px 16px;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+  }
+
+  .popup-card__txt {
+    padding: 16px;
+  }
+
+  /* Main Banner */
+  .main-banner__txt-container {
+    position: relative;
+    background-color: var(--bg-color);
+    padding: 20px;
+    margin: -32px 16px 0;
+    width: calc(100% - 32px);
+  }
+
+  .main-banner__title {
+    margin-bottom: 8px;
+  }
+
+  /* Accordion */
+  .accordion__button {
+    padding: 12px 16px;
+  }
+
+  .accordion__collapse-body {
+    padding: 16px;
+  }
+
+  /* Header */
+  .header__main {
+    display: none;
+  }
+
+  .mobile-menu-toggler {
+    display: flex;
+  }
+
+  /* Footer */
+  .footer__inner {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .footer__title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .footer__socials-list {
+    justify-content: center;
+  }
+
+  .footer__copyright {
+    padding: 16px;
+  }
+
+  /* Home page */
+  .home-banner__body {
+    position: relative;
+    background-color: var(--bg-color);
+    padding: 20px;
+    margin: -32px 16px 0;
+    width: calc(100% - 32px);
+  }
+
+  .home-banner__body-inner {
+    color: var(--text-color);
+    padding: 0;
+  }
+
+  .home-banner__title h1 {
+    font-size: 20px;
+  }
+
+  .home-banner__desc {
+    font-size: 15px;
+  }
+
+  .home-banner__link {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .about-cards-section__inner {
+    padding-bottom: 40px;
+  }
+
+  .popular-products__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .latest-posts__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* About pages */
+  .about-page__section-inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .history-page__divider {
+    padding-top: 20px;
+  }
+
+  .history-page__divider-image {
+    display: none;
+  }
+
+  .history-page__divider-txt {
+    position: static;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .history-page__txt-inner {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .wealth__cards-list {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+
+  .wealth__cards-inner {
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+
+  .wealth-page__txt-inner {
+    padding-bottom: 32px;
+  }
+
+  .principles__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .career-page__txt {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  /* Products pages */
+  .products-boxes__inner {
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+
+  .products-page__box-list {
+    flex-direction: column;
+  }
+
+  .new-products__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .products-counter {
+    display: none;
+  }
+
+  .all-products-section__inner {
+    padding-bottom: 40px;
+  }
+
+  .products-filter {
+    margin-bottom: 32px;
+  }
+
+  .filter-by-letter {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .filter-by-letter__title {
+    font-size: 16px;
+  }
+
+  .filter-by-letter__list {
+    gap: 4px 16px;
+    flex-wrap: wrap;
+  }
+
+  .nosology-section__inner,
+  .atx-section__inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .nosology-section__divider,
+  .atx-section__divider {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .classifications-list {
+    display: none;
+  }
+
+  .product-section__inner {
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .product-properties {
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  .product-properties__item {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .product-properties__key {
+    flex-basis: 100%;
+    font-size: 15px;
+    text-transform: none;
+  }
+
+  .product-properties__value {
+    flex-basis: 100%;
+  }
+
+  .product-properties__value h1 {
+    font-size: 15px;
+  }
+
+  .product-properties__value .ya-share2 {
+    margin-top: 12px;
+  }
+
+  .product-section__title {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+
+  .product-section__txt {
+    padding: 16px;
+  }
+
+  /* Category page */
+  .categories-section__inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .category-posts__inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  /* Science pages */
+  .science-banner {
+    background-color: transparent;
+  }
+
+  .science-banner__txt {
+    position: relative;
+    background-color: var(--bg-color);
+    padding: 20px;
+    margin: -32px 16px 0;
+    width: calc(100% - 32px);
+  }
+
+  .science-banner__txt-inner {
+    padding: 0;
+  }
+
+  .science-banner__title {
+    margin-bottom: 8px
+  }
+
+  .science-banner__desc {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Post show page */
+  .post-page__section-inner {
+    padding-bottom: 32px;
+  }
+
+  .post__desc {
+    padding-left: 16px;
+    margin: 20px 0;
+  }
+
+  .post__title {
+    margin-bottom: 4px;
+  }
+
+  .font-controller {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 20px;
+  }
+
+  .post__body {
+    padding: 20px;
+  }
+
+  /* Interesting pages */
+  .interesting-about__inner {
+    flex-direction: column-reverse;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .interesting-about__txt {
+    position: relative;
+    background-color: var(--bg-color);
+    padding: 20px;
+    margin: -32px 16px 0;
+    width: calc(100% - 32px);
+  }
+
+  .interesting-about__title {
+    margin-bottom: 8px;
+  }
+
+  .interesting-about__desc {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .interesting-about__img-container {
+    gap: 12px;
+    max-width: 100%;
+  }
+
+  .interesting-page__videos-inner,
+  .interesting-page__posts-inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .interesting-page__videos-more,
+  .interesting-page__posts-more {
+    margin-top: 20px;
+  }
+
+  .videos-page__section-inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .videos-list {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}

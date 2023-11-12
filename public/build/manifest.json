@@ -1,0 +1,19 @@
+{
+  "public/js/styles.js": {
+    "file": "assets/styles.19d5cf54.js",
+    "src": "public/js/styles.js",
+    "isEntry": true,
+    "css": [
+      "assets/styles.5fd6d56b.css"
+    ]
+  },
+  "public/js/app.js": {
+    "file": "assets/app.1f7b2bd7.js",
+    "src": "public/js/app.js",
+    "isEntry": true
+  },
+  "public/js/styles.css": {
+    "file": "assets/styles.5fd6d56b.css",
+    "src": "public/js/styles.css"
+  }
+}
